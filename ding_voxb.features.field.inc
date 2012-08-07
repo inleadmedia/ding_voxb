@@ -162,7 +162,7 @@ function ding_voxb_field_default_fields() {
             'link_type' => 'object',
           ),
           'type' => 'voxb_review_default',
-          'weight' => '4',
+          'weight' => '5',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -188,7 +188,7 @@ function ding_voxb_field_default_fields() {
         'module' => 'blackhole',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => '1',
+        'weight' => '3',
       ),
     ),
   );
@@ -240,7 +240,7 @@ function ding_voxb_field_default_fields() {
             'link_type' => 'object',
           ),
           'type' => 'voxb_tags_default',
-          'weight' => '3',
+          'weight' => '4',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -266,7 +266,7 @@ function ding_voxb_field_default_fields() {
         'module' => 'blackhole',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => '1',
+        'weight' => '11',
       ),
     ),
   );
